@@ -1,0 +1,16 @@
+.ImpressumDiv {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.textConte {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+}
+/*# sourceMappingURL=Impressum.css.map */

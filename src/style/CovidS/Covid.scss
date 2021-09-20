@@ -1,0 +1,39 @@
+.CovidDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  @media only screen and (max-width: 980px) {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+.ImgCV {
+  display: flex;
+  justify-content: space-evenly;
+
+  @media only screen and (max-width: 980px) {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.imgCovid {
+  height: 500px;
+  width: 500px;
+  @media only screen and (max-width: 980px) {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.paymentImg {
+  @media only screen and (max-width: 980px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+.mainPage {
+  display: grid;
+  justify-content: center;
+}
+
+.cardConte {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  @media screen and (max-width: 980px) {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.iconC {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  justify-content: right;
+  align-items: center;
+  margin-right: 30px;
+
+  @media screen and (max-width: 980px) {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.textC {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  align-items: center;
+  @media screen and (max-width: 980px) {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,54 @@
+.Cover {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line {
+  height: 25px;
+  background-color: #142040;
+  width: 100%;
+  -webkit-box-shadow: 0px 5px 5px gray;
+          box-shadow: 0px 5px 5px gray;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.texttileHead {
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+}
+
+@media screen and (max-width: 980px) {
+  .texttileHead {
+    font-size: 25px;
+  }
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.phoneLink {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+/*# sourceMappingURL=CoverS.css.map */

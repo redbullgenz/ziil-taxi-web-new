@@ -1,0 +1,54 @@
+.container {
+  color: black;
+  background-color: #142040;
+}
+
+.divFooter {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .divFooter {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.footermenu {
+  display: grid;
+  text-align: left;
+  width: 200px;
+  @media only screen and (max-width: 980px) {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footermenu {
+    display: grid;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.LinksPhone {
+  color: blue;
+}
+
+.Acover {
+  display: flex;
+  justify-content: center;
+}
+
+.FooterLink {
+  text-decoration: none;
+  color: white;
+}

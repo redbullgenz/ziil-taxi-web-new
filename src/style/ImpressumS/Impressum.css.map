@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "Impressum.scss"
+    ],
+    "names": [],
+    "file": "Impressum.css"
+}
