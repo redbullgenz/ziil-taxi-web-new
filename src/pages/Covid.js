@@ -1,11 +1,16 @@
 import Cover from "../components/Cover";
 import Footer from "../components/Footer";
-
+import { Helmet } from 'react-helmet'
 import "../style/CovidS/Covid.css";
 
 function Covid() {
   return (
     <div>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Covid bag</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <div>
         <div className="CovidDiv">
           <img className="imgCovid" src="covid-payment.png" />

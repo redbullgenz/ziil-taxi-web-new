@@ -97,13 +97,16 @@
 }
 
 .mini_text {
-  font-size: 12px;
   text-align: center;
-  height: 100px;
-  width: 100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   @media screen and (max-width: 980px) {
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
     font-size: 8px;
   }
 

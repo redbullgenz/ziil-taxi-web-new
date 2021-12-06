@@ -7,8 +7,7 @@ function Cover() {
         <img src="googlemaps.png" className="background" />
         <a href="https://www.k12-kiosk.ch" target="_blank" className="k12Link">
           <div className="mini_text">
-          <h2>K-12</h2>
-            Jetzt <h3>HIER KLIECKEN</h3>Online um unsere Produckte zu kaufen
+          <img src="K12Button.svg" width="150px"></img>
           </div>
         </a>
 
@@ -37,8 +36,7 @@ function Cover() {
           <div className="k12-container">
           <a href="https://www.k12-kiosk.ch" target="_blank" className="k12Link2">
           <div className="mini_text">
-          <h2>K-12</h2>
-            Jetzt <h3>HIER KLIECKEN</h3>
+          <img src="K12Button.svg"></img>
           </div>
 
         </a>

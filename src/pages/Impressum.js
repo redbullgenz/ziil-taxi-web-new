@@ -1,11 +1,16 @@
 import Cover from "../components/Cover";
 import Footer from "../components/Footer";
-
+import { Helmet } from 'react-helmet'
 import "../style/ImpressumS/Impressum.css";
 
 function Impressum() {
   return (
     <div>
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Impressum</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <div className="ImpressumDiv">
         <div className="textConte">
           <h2>IMPRESSUM</h2>

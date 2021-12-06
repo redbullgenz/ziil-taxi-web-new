@@ -123,16 +123,25 @@
 }
 
 .mini_text {
-  font-size: 12px;
   text-align: center;
-  height: 100px;
-  width: 100px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 980px) {
   .mini_text {
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
     font-size: 8px;
   }
 }

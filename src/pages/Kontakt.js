@@ -1,11 +1,16 @@
 import Cover from "../components/Cover";
 import Footer from "../components/Footer";
-
+import { Helmet } from 'react-helmet'
 import "../style/KontaktS/Kontakt.css";
 
 function Kontakt() {
   return (
     <div>
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Kontakt</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       <div className="KontaktDiv">
         <div className="boxText1">
           <h2>Ihr Kontakt zu uns</h2>
@@ -15,7 +20,9 @@ function Kontakt() {
             Kontakt Formular aus, und wir setzen uns so bald wie möglich mit
             Ihnen in Verbindung. Wir freuen uns über Ihre Kontakt.
           </h4>
-          <h2>079 400 11 11</h2>
+          <a href="tel:+41794001111" className="phoneLinkKontakt">
+            079 400 11 11
+          </a>
         </div>
         <div className="boxText1">
           <h2>ÖFFNUNGSZEITEN</h2>
