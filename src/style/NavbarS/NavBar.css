@@ -25,7 +25,7 @@
 }
 
 .BarBox:hover {
-  opacity: 50%;
+  color: yellow;
 }
 
 .phoneMenu {
@@ -39,5 +39,10 @@
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.titleHead_ {
+  font-size: 18px;
+  opacity: 80%;
 }
 /*# sourceMappingURL=NavBar.css.map */

@@ -15,41 +15,50 @@ function Home() {
       <Cover />
       <div>
         <div className="mainPage">
+          
+          <div>
+          <div className="margin_">
           <div className="cardConte">
             <div className="iconC">
               <img src="./iconcovid.png" height="150" />
             </div>
             <div className="textC">
-              <h2>COVID-19 </h2>
-              <h4>
-                Wir bieten für diese Coronazeiten Kleitransporte aller art wie
-              </h4>
+              <p className="titleHead_">COVID-19</p>
+              <h4>Wir bieten für diese Coronazeiten <br/>
+                Kleitransporte aller art wie</h4>
               <li>Medikamente</li>
               <li>Eilsendungen</li>
-              <li>Selbverstandlich auch personentransporte</li>
+              <li>Personentransporte</li>
             </div>
           </div>
+          </div>
+          </div>
 
+
+          <div className="margin_">
           <div className="cardConte">
             <div className="iconC">
               <img src="./icontaxi.png" height="150" />
             </div>
             <div className="textC">
-              <h2>TAXI</h2>
+              <p className="titleHead_">TAXI</p>
               <h4>Umkreis Kreuzlingen</h4>
               <li>Tägerwilen</li>
               <li>Bottighofen</li>
               <li>Lengwil</li>
             </div>
           </div>
+          </div>
 
+
+          <div className="margin_">
           <div className="cardConte">
             <div className="iconC">
               <img src="./iconkurier.png" height="150" />
             </div>
             <div className="textC">
-              <h2>KURIER</h2>
-              <h4>
+              <p className="titleHead_">KURIER</p>
+              <p className="textcard_">
                 Kuriersendungen (Dokumente, Formulare, Pakete, Blumen, Fotos,
                 Geschenke, usw…) in kürzester Zeit an den gewünschten
                 Bestimmungsort. Ihre Anfrage nehmen wir gerne telefonisch 079
@@ -57,17 +66,19 @@ function Home() {
                 Kurierservice: Ob Brief, Dokument, Pass, Blutprobe, Medikamente
                 nennen Sie uns Ihre Anforderung, wir finden die passende Lösung.
                 (Pakete bis 30 kg.)
-              </h4>
+              </p>
             </div>
           </div>
-
+          </div>
+        
+          <div className="margin_">
           <div className="cardConte">
             <div className="iconC">
               <img src="./iconflug.png" height="150" />
             </div>
             <div className="textC">
-              <h2>FLUGHAFEN TRANSFER</h2>
-              <h4>
+              <p className="titleHead_">FLUGHAFEN TRANSFER</p>
+              <p className="textcard_">
                 Sie freuen sich auf Ihren Urlaub, wissen aber noch nicht, wer
                 Sie zum Flughafen bringt? Sie müssen auf eine Geschäftsreise,
                 möchten Ihr Auto aber nicht den ganzen Tag auf dem
@@ -78,7 +89,8 @@ function Home() {
                 nach einem komfortablen Weg, um nach Hause oder ins Hotel zu
                 kommen? Nach vorheriger Taxibestellung können wir Sie direkt
                 nach der Zollkontrolle mit einem Namensschild abholen!
-              </h4>
+              </p>
+            </div>
             </div>
           </div>
         </div>

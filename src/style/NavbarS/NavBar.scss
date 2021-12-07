@@ -16,7 +16,7 @@
 }
 
 .BarBox:hover {
-  opacity: 50%;
+  color: yellow;
 }
 
 .phoneMenu {
@@ -25,4 +25,9 @@
   @media only screen and (max-width: 980px) {
     display: flex;
   }
+}
+
+.titleHead_ {
+  font-size: 18px;
+  opacity: 80%;
 }

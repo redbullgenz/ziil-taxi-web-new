@@ -1,3 +1,4 @@
+
 .mainPage {
   display: grid;
   justify-content: center;
@@ -7,6 +8,10 @@
   display: flex;
   height: 100%;
   align-items: center;
+  line-height: 1.1;
+
+
+
   @media screen and (max-width: 980px) {
     height: 100%;
     display: grid;
@@ -21,7 +26,7 @@
   display: grid;
   justify-content: right;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 20%;
 
   @media screen and (max-width: 980px) {
     margin-top: 50px;
@@ -37,9 +42,20 @@
   width: 50%;
   display: grid;
   align-items: center;
+  margin-right: 50px;
   @media screen and (max-width: 980px) {
     width: 100%;
     display: grid;
     justify-content: center;
   }
+}
+
+.titleHead_{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.1;
+}
+
+.margin_{
+padding-top: 100px;
 }
