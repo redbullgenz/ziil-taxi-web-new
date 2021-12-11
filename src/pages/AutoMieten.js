@@ -1,6 +1,9 @@
 import Cover from "../components/Cover";
 import Footer from "../components/Footer";
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
+
+import "../style/AutoMietenS/AutoMieteCs.css";
+
 function AutoMieten() {
   return (
     <div>
@@ -9,10 +12,12 @@ function AutoMieten() {
                 <title>Auto Mieten</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
-      <Cover />
+     
       <div>
         <div>
-          <div></div>
+          <div className="divMiete_">
+            Seite in Bearbeitung
+          </div>
           <div></div>
           <div></div>
         </div>

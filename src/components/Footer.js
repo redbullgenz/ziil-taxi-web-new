@@ -51,7 +51,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="Acover">Powered by Albert Z</div>
+        <div className="Acover">Powered by</div><a className="Acover" href="https://wa.me/+41762039095"> AlbertZ</a>
       </div>
     </div>
   );
