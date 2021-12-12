@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import AutoMieten from "./pages/AutoMieten";
@@ -6,6 +6,7 @@ import Covid from "./pages/Covid";
 import Home from "./pages/Home";
 import Impressum from "./pages/Impressum";
 import Kontakt from "./pages/Kontakt";
+
 
 function App() {
   return (
@@ -15,36 +16,37 @@ function App() {
           <NavBar />
 
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/" activeClassName="selected">
               <Home />
             </Route>
           </Switch>
 
           <Switch>
-            <Route path="/AutoMieten">
+            <Route path="/AutoMieten" activeClassName="selected">
               <AutoMieten />
             </Route>
           </Switch>
 
           <Switch>
-            <Route path="/Impressum">
+            <Route path="/Impressum" activeClassName="selected">
               <Impressum />
             </Route>
           </Switch>
 
           <Switch>
-            <Route path="/Covid">
+            <Route path="/Covid" activeClassName="selected">
               <Covid />
             </Route>
           </Switch>
 
           <Switch>
-            <Route path="/Kontakt">
+            <Route path="/Kontakt" activeClassName="selected">
               <Kontakt />
             </Route>
           </Switch>
         </Router>
       </div>
+      <div className="StickyContakt">w</div>
     </div>
   );
 }

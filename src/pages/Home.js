@@ -23,9 +23,9 @@ function Home() {
               <img src="./iconcovid.png" height="150" />
             </div>
             <div className="textC">
-              <p className="titleHead_">COVID-19</p>
-              <h4>Wir bieten für diese Coronazeiten <br/>
-                Kleitransporte aller art wie</h4>
+              <p className="titletextCard">COVID-19</p>
+              <h5>Wir bieten für diese Coronazeiten <br/>
+                Kleitransporte aller art wie</h5>
               <li>Medikamente</li>
               <li>Eilsendungen</li>
               <li>Personentransporte</li>
@@ -41,8 +41,8 @@ function Home() {
               <img src="./icontaxi.png" height="150" />
             </div>
             <div className="textC">
-              <p className="titleHead_">TAXI</p>
-              <h4>Umkreis Kreuzlingen</h4>
+              <p className="titletextCard">TAXI</p>
+              <h5>Umkreis Kreuzlingen</h5>
               <li>Tägerwilen</li>
               <li>Bottighofen</li>
               <li>Lengwil</li>
@@ -57,7 +57,7 @@ function Home() {
               <img src="./iconkurier.png" height="150" />
             </div>
             <div className="textC">
-              <p className="titleHead_">KURIER</p>
+              <p className="titletextCard">KURIER</p>
               <p className="textcard_">
                 Kuriersendungen (Dokumente, Formulare, Pakete, Blumen, Fotos,
                 Geschenke, usw…) in kürzester Zeit an den gewünschten
@@ -77,7 +77,7 @@ function Home() {
               <img src="./iconflug.png" height="150" />
             </div>
             <div className="textC">
-              <p className="titleHead_">FLUGHAFEN TRANSFER</p>
+              <p className="titletextCard">FLUGHAFEN TRANSFER</p>
               <p className="textcard_">
                 Sie freuen sich auf Ihren Urlaub, wissen aber noch nicht, wer
                 Sie zum Flughafen bringt? Sie müssen auf eine Geschäftsreise,
