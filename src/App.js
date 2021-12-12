@@ -46,7 +46,6 @@ function App() {
           </Switch>
         </Router>
       </div>
-      <div className="StickyContakt">w</div>
     </div>
   );
 }

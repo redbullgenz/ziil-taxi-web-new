@@ -43,6 +43,13 @@
 
 .titleHead_ {
   font-size: 18px;
-  opacity: 80%;
+}
+
+.selected {
+  color: yellow;
+}
+
+.active {
+  color: yellow;
 }
 /*# sourceMappingURL=NavBar.css.map */

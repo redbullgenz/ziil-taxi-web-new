@@ -3,9 +3,12 @@
     display: grid;
     position: absolute;
     font-size: 50px;
-    height: 500px;
 }
 
 .selected {
-    color: red;
-}
+    color: yellow;
+  }
+  
+  .active{
+    color: yellow;
+  }
