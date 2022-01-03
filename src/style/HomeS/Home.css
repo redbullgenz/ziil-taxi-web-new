@@ -88,4 +88,39 @@
 .margin_ {
   padding-top: 100px;
 }
+
+.tooltip_{
+  display: grid;
+  justify-content: center;
+  margin-left: -143px;
+  padding: 2px;
+  align-items: center;
+  position: absolute;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  height: 25px;
+  z-index: 99;
+}
+
+.tooltip_d{
+  display: grid;
+  justify-content: center;
+  margin-left: 60px;
+  padding: 2px;
+  align-items: center;
+  position: absolute;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  height: 25px;
+  z-index: 99;
+}
+
+.sms_{
+  color: white;
+  text-decoration: rgb(255, 255, 255);
+}
 /*# sourceMappingURL=Home.css.map */

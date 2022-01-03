@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import AutoMieten from "./pages/AutoMieten";
@@ -15,35 +15,28 @@ function App() {
         <Router>
           <NavBar />
 
-          <Switch>
-            <Route exact path="/" activeClassName="selected">
-              <Home />
-            </Route>
-          </Switch>
+            <Routes >
+            <Route exact path="/" activeClassName="selected" element={<Home/>} />
+      </Routes >
 
-          <Switch>
-            <Route path="/AutoMieten" activeClassName="selected">
-              <AutoMieten />
-            </Route>
-          </Switch>
 
-          <Switch>
-            <Route path="/Impressum" activeClassName="selected">
-              <Impressum />
-            </Route>
-          </Switch>
+            <Routes >
+            <Route exact path="/AutoMieten" activeClassName="selected" element={<AutoMieten/>} />
+      </Routes >
 
-          <Switch>
-            <Route path="/Covid" activeClassName="selected">
-              <Covid />
-            </Route>
-          </Switch>
+            <Routes >
+            <Route exact path="/Impressum" activeClassName="selected" element={<Impressum/>} />
+      </Routes >
 
-          <Switch>
-            <Route path="/Kontakt" activeClassName="selected">
-              <Kontakt />
-            </Route>
-          </Switch>
+
+            <Routes >
+            <Route exact path="/Covid" activeClassName="selected" element={<Covid/>} />
+      </Routes >
+
+
+              <Routes >
+            <Route exact path="/Kontakt" activeClassName="selected" element={<Kontakt/>} />
+      </Routes >
         </Router>
       </div>
     </div>
