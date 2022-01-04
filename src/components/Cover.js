@@ -46,7 +46,7 @@ function Cover() {
             </a>
 
             <a className="k12" href="https://www.k12-kiosk.ch/">
-            <div className="text_btn_cover">Hier Klicken <br/> <br/><br/> <br/>ein Tabak zu bestellen</div>
+            <div className="text_btn_cover">Hier Klicken <br/> <br/><br/> <br/>ein Tabak zu kaufen <br/> <br/><br/> <br/> mit Ziil-taxi</div>
             <div className="icon_btn_cover">
             <img src="k12me.png"   height="30px"/>
               </div>
