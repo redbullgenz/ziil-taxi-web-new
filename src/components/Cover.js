@@ -5,11 +5,6 @@ function Cover() {
     <div>
       <div className="Cover">
         <img src="googlemaps.png" className="background" />
-        <a href="https://www.k12-kiosk.ch" target="_blank" className="k12Link">
-          <div className="mini_text">
-          <img src="K12Button.svg" width="180px"></img>
-          </div>
-        </a>
 
         
         <div className="texttileHead">
@@ -21,30 +16,49 @@ function Cover() {
           </div>
       
           <h4>BESTELL DIR JETZT DEIN TAXI <h4>MIT EIN <a className="color_"> SMS</a> ODER PER <a className="color_"> WHATSAPP</a></h4>  </h4>
-          <div>
-          <div className="call_icon">
-            <a className="link_phone" href="tel:+41794001111">
-          <div className="tooltip_" >Hier klicken um ein taxi zu bestellen</div>
+
+
+          <div className="xx_">
+
+          <div className="xx_">
+
+          <a className="background_icon" href="tel:+41794001111">
+          <div className="text_btn_cover">Hier Cliken um <br/> <br/><br/> <br/>ein Taxi zu bestellen</div>
+          <div className="icon_btn_cover">
+
           <img src="icontelefon.png" height="50px"/>
+          </div>
           </a>
 
-          <a className="link_phone" href="https://wa.me/41794001111">
-          <div className="tooltip_d">Hier klicken um ein taxi zu bestellen</div>
+          <a className="background_icon2" href="https://wa.me/41794001111">
+          <div className="text_btn_cover">Hier Cliken um <br/> <br/><br/> <br/>ein Taxi zu bestellen</div>
+            <div className="icon_btn_cover">
           <img src="iconwhatsapp.png"   height="50px"/>
+              </div>
           </a>
-          </div>
-          <a className="link_phone" href="sms:+41794001111">
-          <div className="tooltip_d">Hier klicken um ein taxi zu bestellen</div>
-          <div className="sms_">SMS</div>
-          </a>
+          
+          <a className="sms_" href="sms:+41794001111">
+            <div className="text_btn_cover">Hier Cliken um <br/> <br/><br/> <br/>ein Taxi zu bestellen</div>
+            <div className="icon_btn_cover">
+            <img src="feedback.png"   height="50px"/>
+              </div>
+            
+            </a>
 
-          <div className="k12-container">
-          <a href="https://www.k12-kiosk.ch" target="_blank" className="k12Link2">
-          <div className="mini_text">
-          <img src="K12Button.svg" width="170px"></img>
+            <a className="k12" href="https://www.k12-kiosk.ch/">
+            <div className="text_btn_cover">Hier Cliken um <br/> <br/><br/> <br/>ein Taxi zu bestellen</div>
+            <div className="icon_btn_cover">
+            <img src="k12me.png"   height="30px"/>
+              </div>
+            
+            </a>
+          
+          
           </div>
-        </a>
-        </div>
+    
+
+            
+  
       
           </div>
         </div>

@@ -120,11 +120,6 @@
 
 }
 
-.k12-container {
- display: flex;
- justify-content: center;
-}
-
 .call_icon{
   display: flex;
   justify-content: center;
@@ -135,4 +130,67 @@ cursor: pointer;
 width: 80px;
 height: 80px;
 margin-left: 10px;
+}
+
+.sms_ {
+ display: flex;
+ height: 50px;
+ justify-content: space-between;
+ align-items: center;
+ text-decoration: none;
+ background-color: rgb(0, 195, 255);
+ color: white;
+ z-index: 55;
+ width: 200px;
+}
+
+.background_icon {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(4, 0, 255);
+  color: white;
+  z-index: 55;
+  width: 200px;
+}
+
+.background_icon2 {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(0, 80, 11);
+  color: white;
+  z-index: 55;
+  width: 200px;
+}
+
+.k12 {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: #142040;
+  color: white;
+  z-index: 55;
+  width: 200px;
+  margin-bottom: 20px;
+ }
+.text_btn_cover {
+font-size: 10px;
+margin-left: 20px;
+}
+
+.icon_btn_cover {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.xx_ {
+  display: grid;
+  justify-content: center;
 }

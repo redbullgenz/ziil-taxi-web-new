@@ -160,15 +160,6 @@
   }
 }
 
-.k12-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .call_icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,5 +174,96 @@
   width: 80px;
   height: 80px;
   margin-left: 10px;
+}
+
+.sms_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background-color: #00c3ff;
+  color: white;
+  z-index: 55;
+  width: 200px;
+}
+
+.background_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background-color: #0400ff;
+  color: white;
+  z-index: 55;
+  width: 200px;
+}
+
+.background_icon2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background-color: #00500b;
+  color: white;
+  z-index: 55;
+  width: 200px;
+}
+
+.k12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  background-color: #142040;
+  color: white;
+  z-index: 55;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.text_btn_cover {
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.icon_btn_cover {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.xx_ {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=CoverS.css.map */
