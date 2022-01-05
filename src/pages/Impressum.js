@@ -71,14 +71,15 @@ function Impressum() {
           </h4>
           <h2>Kontakt:</h2>
           <h4>Finkerstrasse 1, 8280 Kreuzlingen, Schweiz,Tel:+41 0794001111</h4>
-          <h2>Registereintrag:</h2>
-          <h4>Bitte eintragen</h4>
-          <h2>Umsatzsteuer-ID:</h2>
-          <h4>Bitte tragen Sie hier Ihre Umsatzsteuer-ID ein</h4>
-          <h2>Wirtschafts-Identifikationsnummer:</h2>
-          <h4>
-            Bitte tragen Sie hier Ihre Wirtschafts-Identifikationsnummer ein
-          </h4>
+          <h2>Registereintrag: </h2>
+            <h4>CH-440.1.031.135-4</h4>
+          <h4>Einzelfirma</h4>
+          <h2>Brache</h2>
+          <h4>Personen- und Güterbeförderung</h4>
+          <h2>
+            Lezte Meldung
+          </h2>
+          <h4>29.11.2019</h4>
         </div>
       </div>
       <Footer />

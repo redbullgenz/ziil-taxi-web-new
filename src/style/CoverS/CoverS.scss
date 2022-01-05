@@ -1,5 +1,5 @@
 .Cover {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,6 @@
 
 .k12Link {
   display: grid;
-
   position: absolute;
   border: solid 1px #142040;
   border-radius: 500px;
@@ -133,8 +132,11 @@ margin-left: 10px;
 }
 
 .sms_ {
+  box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
  display: flex;
- height: 50px;
+ height: 70px;
  justify-content: space-between;
  align-items: center;
  text-decoration: none;
@@ -145,8 +147,10 @@ margin-left: 10px;
 }
 
 .background_icon {
+  box-shadow: 0 0px 10px black;
+  border-radius: 50px;
   display: flex;
-  height: 50px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -157,8 +161,11 @@ margin-left: 10px;
 }
 
 .background_icon2 {
+  box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
   display: flex;
-  height: 50px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -169,8 +176,11 @@ margin-left: 10px;
 }
 
 .k12 {
+  box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
   display: flex;
-  height: 50px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
@@ -181,7 +191,7 @@ margin-left: 10px;
   margin-bottom: 20px;
  }
 .text_btn_cover {
-font-size: 10px;
+font-size: 12px;
 margin-left: 20px;
 }
 

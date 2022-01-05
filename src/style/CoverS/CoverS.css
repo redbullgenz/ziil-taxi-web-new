@@ -1,5 +1,5 @@
 .Cover {
-  height: 80vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,10 +177,14 @@
 }
 
 .sms_ {
+  -webkit-box-shadow: 0 0px 10px black;
+          box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 70px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -195,10 +199,13 @@
 }
 
 .background_icon {
+  -webkit-box-shadow: 0 0px 10px black;
+          box-shadow: 0 0px 10px black;
+  border-radius: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 70px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -213,10 +220,14 @@
 }
 
 .background_icon2 {
+  -webkit-box-shadow: 0 0px 10px black;
+          box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 70px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -231,10 +242,14 @@
 }
 
 .k12 {
+  -webkit-box-shadow: 0 0px 10px black;
+          box-shadow: 0 0px 10px black;
+  border-radius: 50px;
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 70px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -250,7 +265,7 @@
 }
 
 .text_btn_cover {
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 20px;
 }
 
