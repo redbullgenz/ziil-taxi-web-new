@@ -36,6 +36,7 @@ function Cover() {
           <img src="iconwhatsapp.png"   height="50px"/>
               </div>
           </a>
+
           
           <a className="sms_" href="sms:+41794001111">
             <div className="text_btn_cover">Hier Klicken und <br/> <br/><br/> <br/>ein Taxi per SmS <br/> <br/><br/> <br/> bestellen</div>

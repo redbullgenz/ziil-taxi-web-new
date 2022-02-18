@@ -12,32 +12,8 @@ function App() {
   return (
     <div>
       <div>
-        <Router>
-          <NavBar />
-
-            <Routes >
-            <Route exact path="/" activeClassName="selected" element={<Home/>} />
-      </Routes >
-
-
-            <Routes >
-            <Route exact path="/AutoMieten" activeClassName="selected" element={<AutoMieten/>} />
-      </Routes >
-
-            <Routes >
-            <Route exact path="/Impressum" activeClassName="selected" element={<Impressum/>} />
-      </Routes >
-
-
-            <Routes >
-            <Route exact path="/Covid" activeClassName="selected" element={<Covid/>} />
-      </Routes >
-
-
-              <Routes >
-            <Route exact path="/Kontakt" activeClassName="selected" element={<Kontakt/>} />
-      </Routes >
-        </Router>
+        
+   heute kein ziil-taxi
       </div>
     </div>
   );
