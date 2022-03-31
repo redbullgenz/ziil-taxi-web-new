@@ -10,7 +10,8 @@ function AutoMieten() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Auto Mieten</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Brauchen Sie das auto für den ganze tag? kein problem fühlen sie den formular aus und wir werden uns bei ihnen melden"/>
+                <link rel="canonical" href="https://www.ziil-taxi.ch/AutoMieten" />
             </Helmet>
      
       <div>

@@ -9,7 +9,8 @@ function Impressum() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Impressum</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="hier dürfen von unsere datenschutz erfahre und von unsere Registereintrag."/>
+                <link rel="canonical" href="https://www.ziil-taxi.ch/Impressum" />
             </Helmet>
       <div className="ImpressumDiv">
         <div className="textConte">

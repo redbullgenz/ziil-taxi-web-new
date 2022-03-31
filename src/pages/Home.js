@@ -10,8 +10,9 @@ function Home() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+                <meta name="description" content="Bestellen Sie ein taxi in umkreis Kreuzlinge, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen. Sie können uns gerne per sms oder per ein WhatsApp nachricht ereichen und warum nicht auch mit eine E-mail und wenn Sie nicht gerne schreiben auch mit ein anruf"/>
+                <link rel="canonical" href="https://www.ziil-taxi.ch/" />
+      </Helmet>
       <Cover />
       <div>
         <div className="mainPage">

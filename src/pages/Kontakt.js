@@ -9,7 +9,8 @@ function Kontakt() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Kontakt</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Kontakt mit Ziil-Taxi aufnehmen für weitere info zu erhalten."/>
+                <link rel="canonical" href="https://www.ziil-taxi.ch/Kontakt" />
             </Helmet>
       <div className="KontaktDiv">
         <div className="boxText1">

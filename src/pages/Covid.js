@@ -9,7 +9,8 @@ function Covid() {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Covid bag</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Wie siehts mit Covid aus? hier erfahren Sie was sie brauchen"/>
+                <link rel="canonical" href="https://www.ziil-taxi.ch/Covid" />
             </Helmet>
       <div>
         <div className="CovidDiv">
