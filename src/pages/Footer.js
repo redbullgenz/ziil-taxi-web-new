@@ -10,26 +10,30 @@ export default function Footer() {
     <div className={styles.footer}>
         <div className={styles.footerDiv}>
         <div className={styles.itemTitle}>ZIIL-TAXI</div>
-            <p className={styles.item}>
-                Fahre war noch nie so schnell und bequem.
-            </p>
+
         </div>
 
         <div className={styles.footerDiv2}>
+        <div className={styles.title2}>
         PATNER
+        </div>
         <div className={styles.itemHead}>K-12 Kiosk</div>
         </div>
 
         <div className={styles.footerDiv2}>
+        <div className={styles.title2}>
         SOCIAL MEDIA
+        </div>
             <div className={styles.itemHead }>Instagram</div>
             <div className={styles.item}>Facebook</div>
         </div>
 
         <div className={styles.footerDiv2}>
+        <div className={styles.title2}>
             KONTAKT
-            <div className={styles.itemHead}>Tel: 077 777 77 77</div>
-            <div className={styles.item}>E-Mail: info@mail.ch</div>
+        </div>
+            <div className={styles.itemHead}>Tel: 079 400 11 11</div>
+            <div className={styles.item}>E-Mail: info@ziil-taxi</div>
             <div className={styles.item}>8280 Kreuzlingen</div>
             <div className={styles.item}>Finkerstrasse 1</div>
         </div>

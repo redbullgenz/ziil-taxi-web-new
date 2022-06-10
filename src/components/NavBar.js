@@ -12,7 +12,7 @@ function NavBar() {
         <Link to="./" className="BarBox" activeClassName="selected">
           HOME
         </Link>
-        <Link to="./Covid" className="BarBox" activeClassName="selected">
+        <Link to="./ZahlungArt" className="BarBox" activeClassName="selected">
           COVID-19
         </Link>
         <Link to="./Impressum" className="BarBox" activeClassName="selected">

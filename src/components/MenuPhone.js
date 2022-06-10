@@ -44,7 +44,7 @@ export default function BasicMenu() {
           <Link to="/" className="menuPhone">HOME</Link>
         </MenuItem>
         <MenuItem onClick={handleClose} >
-          <Link to="/Covid" className="menuPhone">COVID-19</Link>
+          <Link to="/ZahlungArt" className="menuPhone">COVID-19</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Link to="/Impressum" className="menuPhone">IMPRESSUM</Link>

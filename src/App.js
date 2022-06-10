@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import AutoMieten from "./pages/AutoMieten";
-import Covid from "./pages/Covid";
+import ZahlungArt from "./pages/ZahlungArt";
 import Home from "./pages/Home";
 import Impressum from "./pages/Impressum";
 import Kontakt from "./pages/Kontakt";
@@ -36,7 +36,7 @@ function App() {
 
 
             <Routes >
-            <Route exact path="/Covid" activeClassName="selected" element={<Covid/>} />
+            <Route exact path="/ZahlungArt" activeClassName="selected" element={<ZahlungArt/>} />
       </Routes >
 
 

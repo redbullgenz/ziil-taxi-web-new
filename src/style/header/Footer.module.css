@@ -1,8 +1,7 @@
 .footer {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  height: 100%;
-  background-color: #fff;
+  height: 30vh;
   background-color: #000462;
   color: white;
   display: -webkit-box;
@@ -17,6 +16,7 @@
   .footer {
     display: -ms-grid;
     display: grid;
+    height: 100%;
   }
 }
 
@@ -33,11 +33,21 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1126px) {
+  .footerDiv2 {
+    margin-bottom: 60px;
+  }
+}
+
 .itemHead {
   margin-top: 20px;
   width: 200px;
   font-size: 16px;
   text-align: center;
+}
+
+.title2 {
+  font-weight: bold;
 }
 
 .item {
@@ -50,8 +60,9 @@
 .itemTitle {
   margin: 0px;
   width: 200px;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
+  font-weight: bold;
 }
 
 .linkAlbert {
