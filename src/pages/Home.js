@@ -1,102 +1,99 @@
-import Cover from "../components/Cover";
-import Footer from "../components/Footer";
 import "../style/HomeS/Home.css";
 import { Helmet } from 'react-helmet'
+import Banner from "./Banner";
+import Footer from "./Footer";
+import styles from '../style/header/Home.module.css';
 
 function Home() {
   return (
     
-    <div>
+    <div className={styles.page}>
        <Helmet>
                 <meta charSet="utf-8" />
-                <title>Home</title>
-                <meta name="description" content="Bestellen Sie ein taxi in umkreis Kreuzlinge, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen. Sie können uns gerne per sms oder per ein WhatsApp nachricht ereichen und warum nicht auch mit eine E-mail und wenn Sie nicht gerne schreiben auch mit ein anruf"/>
+                <title>Home | Ziil-Taxi Kreuzlingen</title>
+                <meta name="description" content="Bestellen Sie ein taxi in umkreis Kreuzlingen, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen."/>
+                <meta name="keywords" content="Flughafen, Preis, Kreuzlingen, Zürich, Konstanz, Taxi, Kurier" />
                 <link rel="canonical" href="https://www.ziil-taxi.ch/" />
       </Helmet>
-      <Cover />
-      <div>
-        <div className="mainPage">
-          
-          <div>
-          <div className="margin_">
-          <div className="cardConte">
-            <div className="iconC">
-              <img src="./iconcovid.png" height="150" />
-            </div>
-            <div className="textC">
-              <p className="titletextCard">COVID-19</p>
-              <h5>Wir bieten für diese Coronazeiten <br/>
-                Kleitransporte aller art wie</h5>
-              <li>Medikamente</li>
-              <li>Eilsendungen</li>
-              <li>Personentransporte</li>
-            </div>
-          </div>
-          </div>
-          </div>
+                                                    
+{/* Testo */}
+<Banner/>
+<div className={styles.mainDiv}>
+<div className={styles.container}>
+<div className={styles.card_2}>
+       
+       <img
+       className={styles.fill_cover} 
+       src="./Taxi auto.jpg"
+      
+       />
+</div>
 
+      <div className={styles.card_1}>
+                   <h1 className="h1text">Taxi</h1>
+                   <p className="text">Von kann Ziil-taxi mich abholen?</p>
+                   <p className="light-text">umkreis von kreuzlingen bis maximal 5 km</p>
+                   <p className="text">Kann Ziil-Taxi mich von Zürich flughafen abholen?</p>
+                   <p className="light-text">Natürlich</p>
+                   <p className="text">Wir sind zu 6 ist das ein problem für Sie?</p>
+                   <p className="light-text">Nein, nach dem vereinbarung <br/>wir werden Sie mit ein Mercedes Vito <br/>
+                       abholen bis zu 7 sitzpläze, <p className="link-text">Hier klicken um das auto zu sehn.</p> </p>
+      </div>
+      </div>
+  </div>
+{/* Fine */}
 
-          <div className="margin_">
-          <div className="cardConte">
-            <div className="iconC">
-              <img src="./icontaxi.png" height="150" />
-            </div>
-            <div className="textC">
-              <p className="titletextCard">TAXI</p>
-              <h5>Umkreis Kreuzlingen</h5>
-              <li>Tägerwilen</li>
-              <li>Bottighofen</li>
-              <li>Lengwil</li>
-            </div>
-          </div>
-          </div>
+{/* Testo */}
+<div className={styles.mainDiv}>
+<div className={styles.container}>
+<div className={styles.card_2}>
+       
+       <img
+       className={styles.fill_cover}
+       src="./Flughafen-Zuerich_big_01.jpg"
+       
+       />
+</div>
+      <div className={styles.card_1}>
+                   <h1 className="h1text">FLUGHAFEN TRASFERT</h1>
+                   <p className="text">Von kann Ziil-taxi mich abholen?</p>
+                   <p className="light-text">umkreis von kreuzlingen bis maximal 5 km </p>
+                   <p className="text">Kann Ziil-Taxi mich von Zürich flughafen abholen?</p>
+                   <p className="light-text">Natürlich</p>
+                   <p className="text">Wir sind zu 6 ist das ein problem für Sie?</p>
+                   <p className="light-text">Nein, nach dem vereinbarung <br/>wir werden Sie mit ein Mercedes Vito <br/>
+                       abholen bis zu 7 sitzpläze, <p className="link-text">Hier klicken um das auto zu sehn.</p> </p>
+      </div>
+      </div>
+  </div>
+{/* Fine */} 
 
-
-          <div className="margin_">
-          <div className="cardConte">
-            <div className="iconC">
-              <img src="./iconkurier.png" height="150" />
-            </div>
-            <div className="textC">
-              <p className="titletextCard">KURIER</p>
-              <p className="textcard_">
-                Kuriersendungen (Dokumente, Formulare, Pakete, Blumen, Fotos,
-                Geschenke, usw…) in kürzester Zeit an den gewünschten
-                Bestimmungsort. Ihre Anfrage nehmen wir gerne telefonisch 079
-                400 11 11 oder über unser Kontaktformular entgegen.Express
-                Kurierservice: Ob Brief, Dokument, Pass, Blutprobe, Medikamente
-                nennen Sie uns Ihre Anforderung, wir finden die passende Lösung.
-                (Pakete bis 30 kg.)
-              </p>
-            </div>
-          </div>
-          </div>
-        
-          <div className="margin_">
-          <div className="cardConte">
-            <div className="iconC">
-              <img src="./iconflug.png" height="150" />
-            </div>
-            <div className="textC">
-              <p className="titletextCard">FLUGHAFEN TRANSFER</p>
-              <p className="textcard_">
-                Sie freuen sich auf Ihren Urlaub, wissen aber noch nicht, wer
-                Sie zum Flughafen bringt? Sie müssen auf eine Geschäftsreise,
-                möchten Ihr Auto aber nicht den ganzen Tag auf dem
-                Flughafenparkplatz abstellen? Wir befördern Sie gerne! Bestellen
-                Sie unser Taxi telefonisch oder via E-Mail Formular auf dieser
-                Webseite. Wir werden Ihre Bestellung umgehend bestätigen und
-                holen Sie pünktlich ab. Sie sind gerade gelandet und suchen nun
-                nach einem komfortablen Weg, um nach Hause oder ins Hotel zu
-                kommen? Nach vorheriger Taxibestellung können wir Sie direkt
-                nach der Zollkontrolle mit einem Namensschild abholen!
-              </p>
-            </div>
-            </div>
-          </div>
+{/* Testo */}
+<div className={styles.mainDiv}>
+<div className={styles.container}>
+<div className={styles.card_2}>
+       
+                   <img
+                   className={styles.fill_cover}
+                   src="./eugene-chystiakov-B-h3so_5UKA-unsplash.jpg"
+                   
+                   />
+    </div>
+        <div className={styles.card_1}>
+       
+                   <h1 className="h1text">Kurier</h1>
+                   <p className="text">Maximal gewicht?</p>
+                   <p className="light-text">30 kg </p>
+                   <p className="text">Was kann ziil-taxi mitbringen?</p>
+                   <p className="light-text">Dokumente, Formulare, <br/> Pakete, Blumen, Fotos, Geschenke, usw…</p>
+                   <p className="text">Bis wo kann mein packet Ziil-Taxi liefern?</p>
+                   <p className="light-text">max-30km umkreis kreuzlingen</p>
         </div>
       </div>
-      <Footer />
+  </div>
+{/* Fine */}          
+ <Footer/>
+    
     </div>
   );
 }

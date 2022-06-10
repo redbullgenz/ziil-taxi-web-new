@@ -1,3 +1,4 @@
+import Helmet from "react-helmet";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -14,6 +15,10 @@ function App() {
       <div>
         
       <Router>
+        <Helmet>
+          <title>ZIIL-TAXI</title>
+          <meta name="description" content="Bestellen Sie ein taxi in umkreis Kreuzlingen, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen."/>
+        </Helmet>
           <NavBar />
 
             <Routes >

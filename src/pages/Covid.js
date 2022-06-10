@@ -1,5 +1,5 @@
 import Cover from "../components/Cover";
-import Footer from "../components/Footer";
+import Footer from "./Footer";
 import { Helmet } from 'react-helmet'
 import "../style/CovidS/Covid.css";
 
@@ -8,7 +8,7 @@ function Covid() {
     <div>
         <Helmet>
                 <meta charSet="utf-8" />
-                <title>Covid bag</title>
+                <title>Covid bag | Ziil-Taxi Kreuzlingen</title>
                 <meta name="description" content="Wie siehts mit Covid aus? hier erfahren Sie was sie brauchen"/>
                 <link rel="canonical" href="https://www.ziil-taxi.ch/Covid" />
             </Helmet>

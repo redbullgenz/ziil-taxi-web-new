@@ -1,0 +1,12 @@
+<div className={styles.footerDiv2}>
+            MENU
+            {navLinks.map((link, index) => {
+            return (
+                <ul key={index}>
+                <Link href={link.path}>
+                <a className={styles.buttonNav}>{link.name}</a>
+                </Link>
+                </ul>
+            );
+        })}
+        </div>

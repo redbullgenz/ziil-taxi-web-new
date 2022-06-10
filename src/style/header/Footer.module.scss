@@ -1,0 +1,55 @@
+.footer{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 100%;
+    background-color: #fff;
+    background-color: rgba(0, 4, 98, 1);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    @media screen and (max-width: 1126px) {
+    display: grid;
+    }
+}
+
+.footerDiv{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.footerDiv2{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.itemHead {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.item {
+    width: 200px;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.itemTitle {
+    margin: 0px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.linkAlbert{
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}

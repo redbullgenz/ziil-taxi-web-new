@@ -1,5 +1,5 @@
 import Cover from "../components/Cover";
-import Footer from "../components/Footer";
+import Footer from "./Footer";
 import { Helmet } from 'react-helmet'
 import "../style/ImpressumS/Impressum.css";
 
@@ -8,7 +8,7 @@ function Impressum() {
     <div>
        <Helmet>
                 <meta charSet="utf-8" />
-                <title>Impressum</title>
+                <title>Impressum | Ziil-Taxi Kreuzlingen</title>
                 <meta name="description" content="hier dürfen von unsere datenschutz erfahre und von unsere Registereintrag."/>
                 <link rel="canonical" href="https://www.ziil-taxi.ch/Impressum" />
             </Helmet>
@@ -83,7 +83,7 @@ function Impressum() {
           <h4>29.11.2019</h4>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
