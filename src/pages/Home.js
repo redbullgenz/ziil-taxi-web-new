@@ -11,6 +11,10 @@ function Home() {
        <Helmet>
                 <meta charSet="utf-8" />
                 <title>Home | Ziil-Taxi Kreuzlingen</title>
+              
+                <meta property="og:title" content="ZIIL-TAXI: Jetzt dein taxi bestellen" />
+                <meta property="og:description" content="Bestellen Sie ein taxi in umkreis Kreuzlingen, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen." />
+ 
                 <meta name="description" content="Bestellen Sie ein taxi in umkreis Kreuzlingen, gerne wir begeleiten ihnen zu Flughafen bis zu ihrem lieblings einkaufladen."/>
                 <meta name="keywords" content="Flughafen, Preis, Kreuzlingen, Zürich, Konstanz, Taxi, Kurier" />
                 <link rel="canonical" href="https://www.ziil-taxi.ch/" />

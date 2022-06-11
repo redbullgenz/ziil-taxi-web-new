@@ -17,23 +17,40 @@ function Kontakt() {
         <div className="boxText1">
           <h1>Ihr Kontakt zu uns</h1>
           <p>
-            Haben Sie Fragen an uns, oder möchten Sie gerne ein Taxi
-            reservieren? Wir sind gerne für Sie da. Füllen Sie einfach unser
-            Kontakt Formular aus, und wir setzen uns so bald wie möglich mit
+            Haben Sie Fragen an uns, oder möchten Sie gerne ein Taxi <br/>
+            reservieren? Wir sind gerne für Sie da. Füllen Sie einfach unser <br/>
+            Kontakt Formular aus, und wir setzen uns so bald wie möglich mit <br/>
             Ihnen in Verbindung. Wir freuen uns über Ihre Kontakt.
           </p>
           <a href="tel:+41794001111" className="phoneLinkKontakt">
             079 400 11 11
           </a>
+          <form className="form">
+          <div className="divForm">
+          <label for="fname" className="label">Vorname </label>
+          <input type="text" id="fname" name="firstname" placeholder="Dein Vorname..." className="input" value=""></input>
+          <label for="fname" className="label">Nachname</label>
+          <input type="text" id="fname" name="firstname" placeholder="Dein Nachname..." className="input" value=""></input>
+          </div>
+          <div className="divForm"> 
+          <label for="fname" className="label">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="E-Mail..." className="input" value=""></input>
+          <label for="fname" className="label">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Mobile..." className="input" value=""></input>
+          </div>
+          </form>
         </div>
-        <div className="boxText1">
+        <div className="boxtextcontainer">
+        <div className="boxText2">
           <h1>ÖFFNUNGSZEITEN</h1>
           <p>
-            Montag bis Sonntag Vormittag 08:00 – 12:00 Uhr Nachmittag 13:30 –
-            3:00 Uhr Freitagnachmittag bis 3:00 Uhr
+            Montag bis Sonntag <br/> Vormittag 08:00 – 12:00 Uhr<br/> Nachmittag 13:30 –
+            3:00 Uhr  <br/>Freitagnachmittag bis 3:00 Uhr
           </p>
         </div>
+        </div>
       </div>
+          14
       <Footer />
     </div>
   );
