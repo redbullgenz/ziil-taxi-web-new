@@ -22,7 +22,7 @@ export default function Banner() {
                 <p className="text">BESTELL DIR JETZT DEIN TAXI <br/>
                    MIT EIN <bold className="link-text">SMS</bold> ODER PER <bold className="link-text">WHATSAPP</bold>
                 </p>
-                    <div>
+                    <div className={styles.div_background}>
                     {iconLinks.map((link, index) => {
                         if (link.id === true) {
                         return (

@@ -1,15 +1,34 @@
 .navBar {
   text-decoration: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: #142040;
   height: 45px;
 }
+.navbar_x {
+  display: flex;
+  background-color: #142040;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+.icon_menu_bar {
+  
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
+}
 
 .BarBox {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
+  margin-left: 50px;
   @media only screen and (max-width: 980px) {
     display: none;
   }

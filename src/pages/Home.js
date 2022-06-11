@@ -31,7 +31,7 @@ function Home() {
 
       <div className={styles.card_1}>
                    <h1 className="h1text">Taxi</h1>
-                   <p className="text">Von kann Ziil-taxi mich abholen?</p>
+                   <p className="text">Von wo kann Ziil-taxi mich abholen?</p>
                    <p className="light-text">umkreis von kreuzlingen bis maximal 5 km</p>
                    <p className="text">Kann Ziil-Taxi mich von Zürich flughafen abholen?</p>
                    <p className="light-text">Natürlich</p>
@@ -58,6 +58,9 @@ function Home() {
                    <h1 className="h1text">FLUGHAFEN TRASFERT</h1>
                    <p className="text">Von kann Ziil-taxi mich abholen?</p>
                    <p className="light-text">umkreis von kreuzlingen bis maximal 5 km </p>
+                   <p className="text">Wie viel kostet bis zum zürich flughafen?</p>
+                   <p className="light-text">Von Kreuzlingen bahnhof, kostet es 99 Chf. <br/> falls wir ihnen von zuhause abholen mussen <br/>
+                   kann der preiss teuer werden.</p>
                    <p className="text">Kann Ziil-Taxi mich von Zürich flughafen abholen?</p>
                    <p className="light-text">Natürlich</p>
                    <p className="text">Wir sind zu 6 ist das ein problem für Sie?</p>
@@ -87,7 +90,7 @@ function Home() {
                    <p className="text">Was kann ziil-taxi mitbringen?</p>
                    <p className="light-text">Dokumente, Formulare, <br/> Pakete, Blumen, Fotos, Geschenke, usw…</p>
                    <p className="text">Bis wo kann mein packet Ziil-Taxi liefern?</p>
-                   <p className="light-text">max-30km umkreis kreuzlingen</p>
+                   <p className="light-text">max-200km umkreis kreuzlingen</p>
         </div>
       </div>
   </div>

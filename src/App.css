@@ -5,8 +5,16 @@
     font-size: 50px;
 }
 
+
+
 .h1text{
   color: white;
+}
+
+.nummer1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: yellow;
 }
 
 .selected {
@@ -37,6 +45,7 @@
       text-align:  center;
     }
   }
+
   
   .nummer{
     font-size: 2rem;
@@ -70,7 +79,7 @@
   
   .link-text {
     margin: 0px;
-    color: rgb(0, 255, 255);
+    color: rgba(0, 133, 255, 1);
   }
   
   .link-text:hover {
