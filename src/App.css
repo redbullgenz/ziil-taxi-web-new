@@ -36,12 +36,12 @@
     font-weight: bold;
     padding-top: 4rem;
     margin: 0;
-    color:  rgba(0, 4, 98, 1);
+    color:  rgb(238, 255, 0);
   }
 
   @media screen and (max-width: 980px) {
     .title {
-      font-size: 2rem;
+      font-size: 4rem;
       text-align:  center;
     }
   }

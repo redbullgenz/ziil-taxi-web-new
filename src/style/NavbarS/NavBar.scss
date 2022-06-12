@@ -11,6 +11,14 @@
   background-color: #142040;
   align-items: center;
   justify-content: space-around;
+  @media only screen and (max-width: 980px) {
+    top: 20px;
+    left: 45%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    width: 60px;
+    border-radius: 20px;
+  }
  
 }
 
@@ -59,19 +67,34 @@
 }
 
 .iconMenuHamburg_ {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .menuPhone {
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
   color: black;
   border-radius: 50px;
-  padding: 20px;
-  box-shadow: 0px 0px 5px black;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.397);
+  z-index: 50;
 }
 
 .MenuHambDiv_ {
   width: 100vh;
   height: 100vh;
-  display:block;
+}
+
+.close_div {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.397);
+  border-radius: 50px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color : white;
 }

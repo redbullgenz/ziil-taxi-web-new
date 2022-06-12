@@ -40,6 +40,7 @@ export default function BasicMenu() {
         }}
       >
         <div  className="MenuHambDiv_">
+        <div className="close_div" onClick={handleClose}>X</div>
         <MenuItem onClick={handleClose}>
           <Link to="/" className="menuPhone">HOME</Link>
         </MenuItem>

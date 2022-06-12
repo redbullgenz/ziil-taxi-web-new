@@ -31,7 +31,7 @@ export default function Banner() {
                                 <div>
                                     <div className={styles.text} key={index}>{link.description}</div>
                                 </div>
-                                <div className={styles.img}>
+                                <div className={styles.img} style={{backgroundColor: link.color_}}> 
                                     <div className={styles.img2}>
                                         <img
                                             src={link.src}
@@ -50,7 +50,7 @@ export default function Banner() {
                         <div>
                             <a className={styles.itemsDiv} href={link.path}>
                                 
-                                <div className={styles.img}>
+                                <div className={styles.img} style={{backgroundColor: link.color_}}>
                                     <div className={styles.img2}>
                                         <img
                                             src={link.src}

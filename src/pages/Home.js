@@ -22,6 +22,7 @@ function Home() {
                                                     
 {/* Testo */}
 <Banner/>
+<div className={styles.dienste}>DIENSLEISTUNGEN</div>
 <div className={styles.mainDiv}>
 <div className={styles.container}>
 <div className={styles.card_2}>
@@ -32,7 +33,7 @@ function Home() {
       
        />
 </div>
-
+      
       <div className={styles.card_1}>
                    <h1 className="h1text">Taxi</h1>
                    <p className="text">Von wo kann Ziil-taxi mich abholen?</p>
