@@ -1,7 +1,9 @@
-import Cover from "../components/Cover";
+
 import Footer from "./Footer";
 import { Helmet } from 'react-helmet'
 import "../style/KontaktS/Kontakt.css";
+import FormFlughafen from "../components/FormFlughafen";
+import FormKontakt from "../components/FormKontakt";
 
 function Kontakt() {
   return (
@@ -13,6 +15,7 @@ function Kontakt() {
                 <meta name="keywords" content="info, booking, job" />
                 <link rel="canonical" href="https://www.ziil-taxi.ch/Kontakt" />
             </Helmet>
+       
       <div className="KontaktDiv">
         <div className="boxText1">
           <h1>Ihr Kontakt zu uns</h1>
@@ -25,20 +28,9 @@ function Kontakt() {
           <a href="tel:+41794001111" className="phoneLinkKontakt">
             079 400 11 11
           </a>
-          <form className="form">
-          <div className="divForm">
-          <label for="fname" className="label">Vorname </label>
-          <input type="text" id="fname" name="firstname" placeholder="Dein Vorname..." className="input" value=""></input>
-          <label for="fname" className="label">Nachname</label>
-          <input type="text" id="fname" name="firstname" placeholder="Dein Nachname..." className="input" value=""></input>
-          </div>
-          <div className="divForm"> 
-          <label for="fname" className="label">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="E-Mail..." className="input" value=""></input>
-          <label for="fname" className="label">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Mobile..." className="input" value=""></input>
-          </div>
-          </form>
+        
+
+        <FormKontakt/>
         </div>
         <div className="boxtextcontainer">
         <div className="boxText2">
@@ -48,10 +40,29 @@ function Kontakt() {
             3:00 Uhr  <br/>Freitagnachmittag bis 3:00 Uhr
           </p>
         </div>
+
+        <div className="boxText2">
+          <h1>OFFICE</h1>
+          <p>
+            ZIIL TAXI Diensleistungen Gmbh 
+            <br/> Finkerstrasse 1
+            <br/> 8280 Kreuzlingen
+          </p>
+        </div>
+
+        <div className="boxText2">
+          <h1>KONTAKT</h1>
+          <p>
+            Tel: 079 400 11 11 <br/> 
+            E-mail: info@ziil-taxi.ch<br/> 
+          </p>
+        </div>
+        
         </div>
       </div>
-          14
-      <Footer />
+     <Footer/>
+      
+    
     </div>
   );
 }
