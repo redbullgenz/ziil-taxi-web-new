@@ -7,6 +7,11 @@ import ZahlungArt from "./pages/ZahlungArt";
 import Home from "./pages/Home";
 import Impressum from "./pages/Impressum";
 import Kontakt from "./pages/Kontakt";
+import Booking from "./pages/Booking";
+import FormTaxi from "./pages/FormTaxi";
+import FormKurier from "./components/FormKurier";
+import FormKontakt from "./components/FormKontakt";
+import FormFlughafen from "./components/FormFlughafen";
 
 
 function App() {
@@ -42,6 +47,20 @@ function App() {
 
               <Routes >
             <Route exact path="/Kontakt" activeClassName="selected" element={<Kontakt/>} />
+      </Routes >
+
+      <Routes >
+            <Route exact path="/Booking" activeClassName="selected" element={<Booking/>} />
+      </Routes >
+
+      <Routes >
+            <Route exact path="/Booking/Classic" activeClassName="selected" element={<FormTaxi/>} />
+      </Routes >
+      <Routes >
+            <Route exact path="/Booking/FlughafenBooking" activeClassName="selected" element={<FormFlughafen/>} />
+      </Routes >
+      <Routes >
+            <Route exact path="/Booking/KurierBooking" activeClassName="selected" element={<FormKurier/>} />
       </Routes >
         </Router>
       </div>

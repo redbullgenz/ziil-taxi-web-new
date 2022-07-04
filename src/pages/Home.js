@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import Banner from "./Banner";
 import Footer from "./Footer";
 import styles from '../style/header/Home.module.css';
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -43,6 +44,7 @@ function Home() {
                    <p className="text">Wir sind zu 6 ist das ein problem für Sie?</p>
                    <p className="light-text">Nein, nach dem vereinbarung <br/>wir werden Sie mit ein Mercedes Vito <br/>
                        abholen bis zu 7 sitzpläze, <p className="link-text">Hier klicken um das auto zu sehn.</p> </p>
+                       <Link to="./Booking" activeClassName="selected"><button className={styles.button}>Online Bestellen</button></Link>
       </div>
       </div>
   </div>
@@ -71,6 +73,7 @@ function Home() {
                    <p className="text">Wir sind zu 6 ist das ein problem für Sie?</p>
                    <p className="light-text">Nein, nach dem vereinbarung <br/>wir werden Sie mit ein Mercedes Vito <br/>
                        abholen bis zu 7 sitzpläze, <p className="link-text">Hier klicken um das auto zu sehn.</p> </p>
+                       <Link to="./Booking" activeClassName="selected"><button className={styles.button}>Online Bestellen</button></Link>
       </div>
       </div>
   </div>
@@ -96,6 +99,7 @@ function Home() {
                    <p className="light-text">Dokumente, Formulare, <br/> Pakete, Blumen, Fotos, Geschenke, usw…</p>
                    <p className="text">Bis wo kann mein packet Ziil-Taxi liefern?</p>
                    <p className="light-text">max-200km umkreis kreuzlingen</p>
+                   <Link to="./Booking"  activeClassName="selected"><button className={styles.button}>Online Bestellen</button></Link>
         </div>
       </div>
   </div>

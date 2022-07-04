@@ -3,10 +3,10 @@ import Footer from "./Footer";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const FormFlughafen = () => {
+const FormTaxi = () =>  {
 
-  const form = useRef();
-  
+    const form = useRef();
+
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -17,24 +17,23 @@ const FormFlughafen = () => {
             console.log(error.text);
         });
     };
-  
-
   return (
-    <div>
-    <form className="form" ref={form} onSubmit={sendEmail}>     
-    <h1>FLUGHAFEN BOOKING</h1> 
+    <div><form className="form" ref={form} onSubmit={sendEmail}>
+         
+    <h1>FLUGHAFEN BOOKING</h1>
+    
     <div className="divForm"> 
     <div className="label_input">
     <label for="fname" className="label">Vorname </label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" name="firstname" className="input" ></input>
     <label for="fname" className="label">Nachname</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" name="firstname"  className="input" ></input>
     <label for="fname" className="label">E-Mail</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" name="firstname"  className="input" ></input>
     <label for="fname" className="label">Von:</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" name="firstname"  className="input"></input>
     <label for="fname" className="label">Zu:</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" name="firstname" className="input" ></input>
     <label for="fname" className="label">um wie viel Uhr:</label>
     <DataPicker/>
     <label for="fname" className="label">Personen</label>
@@ -63,11 +62,11 @@ const FormFlughafen = () => {
     <label for="fname" className="label">Nachricht</label>
     <input type="text" id="fname" name="firstname" placeholder="" className="inputMessage" value=""></input>
     </div>
-    <button type="submit" value="Send" className="btn_submit">Senden</button>
+    <button className="btn_submit" type="submit" value="Send">Senden</button>
     </form>
-    <Footer />
+    <Footer/>
     </div>
   )
 }
 
-export default FormFlughafen
+export default FormTaxi
