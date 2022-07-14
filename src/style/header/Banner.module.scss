@@ -7,7 +7,7 @@
     background-color: rgba(0, 0, 0, 0.507);
     width: 100%;
     
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,4 +130,53 @@
     height: 100%;
     filter: blur(3px);
     z-index: -1;
+}
+
+.dividerZahlungArt {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.img_zahlung {
+    
+    width:80px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.img_zahlung2 {
+    width:80px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.ferien {
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+    
+}
+
+.ferientext {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border-radius:  20px;
+    box-shadow: 0 5px 10px rgb(179, 179, 179);
+    justify-content: center;
+    align-items: center;
 }

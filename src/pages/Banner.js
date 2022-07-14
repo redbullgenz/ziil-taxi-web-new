@@ -6,7 +6,10 @@ import { iconLinks } from "../pages/data";
 
 export default function Banner() {
   return (
+
     <div className={styles.container}>
+        {/* 
+
 
             <div className={styles.cover}>
                 <video autoPlay muted loop className={styles.video}>
@@ -66,10 +69,27 @@ export default function Banner() {
                         </div>
                         );
                     }
-                    })}
+                })}
                     </div>
+
+                </div>
+                <div className={styles.Title}>Zahlung art: </div>
+                <div className={styles.dividerZahlungArt}>
+                <img className={styles.img_zahlung} src="Visa.svg"  />
+                <img className={styles.img_zahlung2} src="MasterCard.svg"  />
+                <img className={styles.img_zahlung} src="v-pay.jpg"  />
+                <img className={styles.img_zahlung} src="v-pay.jpg"  />
+                
                 </div>
             </div>
+            A JSX comment */}
+
+            <div className={styles.ferien}>
+                <div className={styles.ferientext}>
+                    Wir sind ab den 13.07.2022 bis den 31.07.2022 in die Ferien
+                </div>
+            </div>
+
 
                 <div className={styles.divider}></div>
     </div>

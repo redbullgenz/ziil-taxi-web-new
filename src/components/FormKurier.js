@@ -1,16 +1,17 @@
 import DataPicker from "./DataPicker";
-
+import styles from '../style/header/FormKurier.module.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from "./Footer";
 
 const FormKurier = () => {
     const form = useRef();
-  
+
+    
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_1oxdvoc', 'template_oajqvtc', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('service_1oxdvoc', 'template_vgjdrng', form.current, 'i_U9_Bw4a-U8yNi_G')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -21,7 +22,7 @@ const FormKurier = () => {
 
   return (
 
-    <div className="main_div">
+    <div className={styles.main_div}>
     <form className="form" ref={form} onSubmit={sendEmail}>
          
     <h1>KURIER BOOKING</h1>
@@ -29,21 +30,21 @@ const FormKurier = () => {
     <div className="divForm"> 
     <div className="label_input">
     <label type="text" for="fname" className="label">Vorname </label>
-    <input type="text" id="fname"  placeholder="" className="input" value="" name="user_name"></input>
+    <input type="text" id="fname"  placeholder="" className="input" value="" name="user_vorname"></input>
     <label for="fname" className="label">Nachname</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
-    <label type="email" for="fname" className="label" name="user_email" >E-Mail</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" id="fname" name="user_nachname" placeholder="" className="input" ></input>
+    <label type="email" for="fname" className="label" >E-Mail</label>
+    <input type="text" id="fname" name="user_email" placeholder="" className="input" ></input>
     <label for="fname" className="label">Von:</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" id="fname" name="user_vonAbholung" placeholder="" className="input" ></input>
     <label for="fname" className="label">Zu:</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" id="fname" name="user_zuAbholung" placeholder="" className="input" ></input>
     <label for="fname" className="label">um wie viel Uhr:</label>
     <DataPicker/>
     <label for="fname" className="label">KG:</label>
-    <input type="text" id="fname" name="firstname" placeholder="" className="input" value=""></input>
+    <input type="text" id="fname" name="user_kg" placeholder="" className="input"></input>
     <label for="fname" className="label">Was wird transportiert?</label>
-    <select id="country" name="country" className="input">
+    <select id="country" name="user_items" className="input">
             <option value="australia">Medikamente</option>
             <option value="canada">Brief</option>
             <option value="usa">Olthers</option>

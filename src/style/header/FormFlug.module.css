@@ -1,0 +1,8 @@
+.maindiv_ {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=FormFlug.module.css.map */
