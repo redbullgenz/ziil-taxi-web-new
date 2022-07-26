@@ -8,9 +8,6 @@ export default function Banner() {
   return (
 
     <div className={styles.container}>
-        {/* 
-
-
             <div className={styles.cover}>
                 <video autoPlay muted loop className={styles.video}>
                     <source src="Kreuzlingen _ Konstanz - DJI MAVIC Video Test.mp4" type='video/mp4' />
@@ -82,15 +79,6 @@ export default function Banner() {
                 
                 </div>
             </div>
-            A JSX comment */}
-
-            <div className={styles.ferien}>
-                <div className={styles.ferientext}>
-                    Wir sind ab den 13.07.2022 bis den 31.07.2022 in die Ferien
-                </div>
-            </div>
-
-
                 <div className={styles.divider}></div>
     </div>
   )
