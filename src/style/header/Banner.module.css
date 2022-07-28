@@ -137,7 +137,7 @@
 .dividerZahlungArt {
   display: flex;
   width: 350px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: white;
 }
 
@@ -148,13 +148,25 @@
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 1126px) {
+  .img_zahlung {
+    width: 50px;
+    height: 30px;
+  }
+}
 
 .img_zahlung2 {
   width: 80px;
-  height: 50px;
+  height: 80px;
   justify-content: center;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 1126px) {
+  .img_zahlung2 {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .pay_div {
