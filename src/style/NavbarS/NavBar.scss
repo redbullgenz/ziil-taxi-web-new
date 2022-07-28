@@ -81,14 +81,25 @@
   z-index: 50;
 }
 
+.selected2{
+  color: white;
+}
+
 .MenuHambDiv_ {
-  width: 100vh;
-  height: 100vh;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 350px) {
+    width: 250px;
+  }
 }
 
 .close_div {
   height: 50px;
   width: 50px;
+  margin-right: 20px;
+  margin-top: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.397);
   border-radius: 50px;
   background-color: red;
@@ -97,4 +108,22 @@
   justify-content: center;
   font-size: 26px;
   color : white;
+}
+
+.contact_h{
+  display: grid;
+  justify-content: space-evenly;
+  p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  div{
+    display: grid;
+    justify-content: space-evenly;
+
+    a{
+      margin-left: 20px;
+    }
+  }
 }

@@ -63,7 +63,7 @@ function Home() {
 </div>
       <div className={styles.card_1}>
                    <h1 className="h1text">FLUGHAFEN TRASFERT</h1>
-                   <p className="text">Von kann Ziil-taxi mich abholen?</p>
+                   <p className="text">Von wo kann Ziil-taxi mich abholen?</p>
                    <p className="light-text">umkreis von kreuzlingen bis maximal 5 km </p>
                    <p className="text">Wie viel kostet bis zum zürich flughafen?</p>
                    <p className="light-text">Von Kreuzlingen bahnhof, kostet es 99 Chf. <br/> falls wir ihnen von zuhause abholen mussen <br/>

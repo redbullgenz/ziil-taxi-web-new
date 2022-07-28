@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -40,23 +40,32 @@ export default function BasicMenu() {
         }}
       >
         <div  className="MenuHambDiv_">
-        <div className="close_div" onClick={handleClose}>X</div>
+        <div>
         <MenuItem onClick={handleClose}>
-          <Link to="/" className="menuPhone">HOME</Link>
+          <NavLink to="/" className="menuPhone" activeClassName="selected2">HOME</NavLink>
         </MenuItem>
         <MenuItem onClick={handleClose} >
-          <Link to="/ZahlungArt" className="menuPhone">COVID-19</Link>
+          <NavLink to="/ZahlungArt" className="menuPhone" activeClassName="selected2">COVID-19</NavLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Link to="/Impressum" className="menuPhone">IMPRESSUM</Link>
+          <NavLink to="/Impressum" className="menuPhone" activeClassName="selected2">IMPRESSUM</NavLink>
         </MenuItem>
 
         <MenuItem onClick={handleClose}>
-          <Link to="/AutoMieten" className="menuPhone">AUTO MIETEN</Link>
+          <NavLink to="/AutoMieten" className="menuPhone" activeClassName="selected2">AUTO MIETEN</NavLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Link to="/Kontakt" className="menuPhone">KONTAKT</Link>
+          <NavLink to="/Kontakt" className="menuPhone" activeClassName="selected2">KONTAKT</NavLink>
         </MenuItem>
+        <div className="contact_h">
+          <p>Contact</p>
+          <div>
+          <a>Tel: 079 400 11 11</a>
+          <a>info@ziil-taxi</a>
+          </div>
+        </div>
+        </div>
+        <div className="close_div" onClick={handleClose}>X</div>
         </div>
       </Menu>
 
