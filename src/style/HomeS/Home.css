@@ -4,32 +4,21 @@
 }
 
 .mainPage {
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .cardConte {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   line-height: 1.1;
 }
-
 @media screen and (max-width: 980px) {
   .cardConte {
     height: 100%;
-    display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
   }
 }
@@ -37,25 +26,16 @@
 .iconC {
   height: 100%;
   width: 50%;
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: right;
+  align-items: center;
   margin-right: 20%;
 }
-
 @media screen and (max-width: 980px) {
   .iconC {
     margin-top: 50px;
-    display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 100%;
     justify-content: center;
   }
@@ -64,22 +44,15 @@
 .textC {
   height: 100%;
   width: 50%;
-  display: -ms-grid;
   display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-right: 50px;
 }
-
 @media screen and (max-width: 980px) {
   .textC {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -87,7 +60,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 0.1;
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
 }
 
 .margin_ {
@@ -96,5 +69,4 @@
 
 .textcard_ {
   margin: 20px;
-}
-/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=Home.css.map */

@@ -1,10 +1,7 @@
 .ImpressumDiv {
   height: 100%;
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -13,5 +10,4 @@
   margin-bottom: 50px;
   margin-left: 100px;
   margin-right: 100px;
-}
-/*# sourceMappingURL=Impressum.module.css.map */
+}/*# sourceMappingURL=Impressum.module.css.map */

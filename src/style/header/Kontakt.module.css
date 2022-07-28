@@ -4,31 +4,24 @@
 
 .form {
   height: 100%;
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 0px;
 }
 
 .nameMail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
 }
 
 .input {
-  display: -ms-grid;
   display: grid;
   margin-right: 50px;
 }
 
 .backForm {
   background-color: whitesmoke;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 25px;
   padding: 50px;
   margin-bottom: 100px;
@@ -56,5 +49,4 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
-}
-/*# sourceMappingURL=Kontakt.module.css.map */
+}/*# sourceMappingURL=Kontakt.module.css.map */

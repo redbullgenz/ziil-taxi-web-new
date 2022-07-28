@@ -70,16 +70,20 @@ export default function Banner() {
                     </div>
 
                 </div>
-                <div className={styles.Title}>Zahlung art: </div>
-                <div className={styles.dividerZahlungArt}>
-                <img className={styles.img_zahlung} src="Visa.svg"  />
-                <img className={styles.img_zahlung2} src="MasterCard.svg"  />
-                <img className={styles.img_zahlung} src="v-pay.jpg"  />
-                <img className={styles.img_zahlung} src="v-pay.jpg"  />
                 
-                </div>
+                
+                
             </div>
                 <div className={styles.divider}></div>
+                <div className={styles.pay_div}>
+                <div className={styles.Title}><p>Zahlung art: </p> </div>
+                <div className={styles.dividerZahlungArt}>
+                <img alt="mastercard_icon" className={styles.img_zahlung} src="mastercard.png"  />
+                <img alt="twint_icon"className={styles.img_zahlung2} src="twint-logo.png"  />
+                <img alt="v_pay_icon" className={styles.img_zahlung} src="v-pay.jpg"  />
+                <img alt="visa_icon" className={styles.img_zahlung} src="visa.jpg"  />
+                </div>
+            </div>
     </div>
   )
 }

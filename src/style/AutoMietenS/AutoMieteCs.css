@@ -1,14 +1,7 @@
 .divMiete_ {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-}
-/*# sourceMappingURL=AutoMieteCs.css.map */
+}/*# sourceMappingURL=AutoMieteCs.css.map */

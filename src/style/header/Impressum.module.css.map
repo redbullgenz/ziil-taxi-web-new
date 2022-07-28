@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,KAAK;CACpB",
-    "sources": [
-        "Impressum.module.scss"
-    ],
-    "names": [],
-    "file": "Impressum.module.css"
-}
+{"version":3,"sources":["Impressum.module.scss","Impressum.module.css"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,aAAA;EACA,uBAAA;EACA,kBAAA;ACCF;;ADEA;EACE,gBAAA;EACA,mBAAA;EACA,kBAAA;EACA,mBAAA;ACCF","file":"Impressum.module.css"}

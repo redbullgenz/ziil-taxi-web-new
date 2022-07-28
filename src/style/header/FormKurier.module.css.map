@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,gBAAgB,EAAE,KAAK;CAC1B",
-    "sources": [
-        "FormKurier.module.scss"
-    ],
-    "names": [],
-    "file": "FormKurier.module.css"
-}
+{"version":3,"sources":["FormKurier.module.scss","FormKurier.module.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;EACA,uBAAA;ACCJ","file":"FormKurier.module.css"}
